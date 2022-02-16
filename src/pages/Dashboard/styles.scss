@@ -1,0 +1,27 @@
+@import '../../scss/main.scss';
+
+.dashboard{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+    background-color: mediumaquamarine;
+
+
+    .description{
+        
+        width: 920px;
+        height: 93px;
+        margin-top: 10rem;
+        font-size: 24px;
+        color: $basic-500;
+        line-height: 31px;
+        text-align: center;
+        font-family: 'Barlow', sans-serif;
+    }
+    
+}
