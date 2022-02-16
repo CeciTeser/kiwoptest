@@ -1,0 +1,79 @@
+@import '../../../scss/main.scss';
+
+
+
+.footer-container{
+    width: 100%;
+    height: 337px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+    
+    .footer{
+        width: 80%;
+        height: 280px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-family: 'Roboto', sans-serif;
+  
+        
+        .listas{
+         
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        
+
+            h5{
+             
+                color: $basic-700;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 14px;
+                text-transform: uppercase;
+            }
+    
+
+            ul{
+       
+                list-style: none;
+                padding: 0px;
+                color: $basic-500;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+            
+    
+                li{
+    
+                    font-size: 14px;
+                    line-height: 16px;
+                    padding-bottom: 7px;
+                 
+    
+                }
+            }
+
+        }
+        .rrss{
+            display: flex;
+            justify-content: space-between;
+            width: 170px;
+            height: 54px;
+        
+            
+            .rrss-icon{
+                width: 22px;
+                height: 20px;
+                color: #707372;
+            }
+        }
+    }
+
+       
+}
