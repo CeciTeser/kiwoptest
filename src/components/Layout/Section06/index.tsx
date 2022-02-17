@@ -12,12 +12,11 @@ const Section06: FC = () => {
             <div className="text-box">
                 <h5>Where ideas become opportunities.</h5>
                 <p>Where engineers love to work.</p>
+                <button>TRABAJA CON NOSOTROS</button>
             </div>
             <div className="rectangle-101"></div>
             <div className="rectangle-66"></div>
-
-            <button>TRABAJA CON NOSOTROS</button>
-          
+            
         </section>
     
       

@@ -1,4 +1,4 @@
-import { Nav } from "./components";
+import { Nav } from "./components/Common";
 
 import { BrowserRouter, Route,} from 'react-router-dom';
 import { Dashboard } from "./pages/Dashboard";

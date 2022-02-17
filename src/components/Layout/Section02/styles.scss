@@ -1,16 +1,19 @@
-@import '../../scss/main.scss';
+@import '../../../scss/main.scss';
 
 .section02{
 
-        width: 90rem;
+        width: 100%;
         height: 1281px;
-        margin-top: 3rem;   
+        margin-top: 10rem;  
+        overflow: hidden;
+        position: relative;
+        
    
 
     .text-section02{
-
         width: 684px;
         height: 104px;
+        margin-left: 20%;
         font-family: 'Roboto', sans-serif;
         font-size: 40px;
         color: #01426A;
@@ -19,18 +22,20 @@
     
 
     .card-insights-lg1{
+
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-    
-        position: relative;
         width: 448px;
         height: 339px;
-        left: 1086px;
+        background: $secondary-TURQ-700;
+        position: relative;
+        left: 1910px;
+        
+
 
         img{
-            position: absolute; 
+        
             width: 448px;
             height: 136px;
             left: calc(50% - 448px/2);
@@ -39,44 +44,39 @@
         }
         
         .content-card{
+            width: 70%;
+            height: 50%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            height: 100%;
-            width: 100%;
-            color: #FFFFFF;
-            padding: 50px 64px;
+            justify-content: space-around;
             font-family: 'Roboto', sans-serif;
-            background: $secondary-TURQ-700;
+            color: white;
 
                 h5{
                     font-weight: bold;
                     font-size: 12px;
                     line-height: 14px;
                     text-transform: uppercase;
-                    margin-top: 7rem;
                 }
         
                 p{
-        
+                    
                     font-size: 18px;
                     line-height: 21px;
                     font-weight: 400;
         
                 }
         
-                button{
+                .link{
 
-                    margin-top: 1rem;
                     font-weight: bold;
                     font-size: 16px;
                     line-height: 19px;
                     text-decoration-line: underline;
                     text-transform: uppercase;
-                    color: #FFFFFF;
                     background-color: transparent;
                     border: none;
+                    color: white;
 
                 }
         }
@@ -85,122 +85,110 @@
 
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-    
-        position: relative;
         width: 448px;
-        height: 360px;
-        left: 614px;
-        top: 130px;
+        height: 339px;
+        background: $secondary-TURQ-700;
+        position: relative;
+        left: 1410px;
+        top: 100px;
+
 
         img{
-            position: absolute; 
             width: 448px;
             height: 136px;
             left: calc(50% - 448px/2);
             top: 0px;
             object-fit: cover;
         }
+        
         .content-card{
+            width: 70%;
+            height: 50%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            height: 100%;
-            width: 100%;
-            color: #FFFFFF;
-            padding: 50px 64px;
+            justify-content: space-around;
             font-family: 'Roboto', sans-serif;
-            background: $secondary-TURQ-700;
+            color: white;
 
                 h5{
                     font-weight: bold;
                     font-size: 12px;
                     line-height: 14px;
                     text-transform: uppercase;
-                    margin-top: 7rem;
                 }
         
                 p{
-        
+                    
                     font-size: 18px;
                     line-height: 21px;
                     font-weight: 400;
         
                 }
         
-                button{
+                .link{
 
-                    margin-top: 1rem;
                     font-weight: bold;
                     font-size: 16px;
                     line-height: 19px;
                     text-decoration-line: underline;
                     text-transform: uppercase;
-                    color: #FFFFFF;
                     background-color: transparent;
                     border: none;
+                    color: white;
 
                 }
         }
-
     }
     .card-insights-lg3{
 
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-    
-        position: relative;
         width: 448px;
-        height: 360px;
-        left: 142px;
-        bottom: 150px;
+        height: 339px;
+        background: $basic-200;
+        position: relative;
+        left: 910px; 
+        bottom: 160px;
+    
 
-        img{
-            position: absolute; 
+
+        img{    
             width: 448px;
             height: 136px;
             left: calc(50% - 448px/2);
             top: 0px;
             object-fit: cover;
         }
-
+        
         .content-card{
+            width: 70%;
+            height: 50%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            height: 100%;
-            width: 100%;
-            color: #FFFFFF;
-            padding: 50px 64px;
+            justify-content: space-around;
             font-family: 'Roboto', sans-serif;
-            background: $basic-200;
+            
 
                 h5{
                     font-weight: bold;
                     font-size: 12px;
                     line-height: 14px;
                     text-transform: uppercase;
-                    margin-top: 7rem;
                     color: $primary-500;
                 }
         
                 p{
-                    width: 90%;
+                    
                     font-size: 18px;
                     line-height: 21px;
                     font-weight: 400;
-                    color: $basic-500;
         
                 }
         
-                button{
+                .link{
 
-                    margin-top: 1rem;
                     font-weight: bold;
                     font-size: 16px;
                     line-height: 19px;
@@ -212,65 +200,55 @@
 
                 }
         }
-        
     }
-
     .card-insights-lg4{
 
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-    
-        position: relative;
         width: 448px;
         height: 339px;
-        left: 1086px;
-        bottom: 690px;
-      
+        background: $basic-200;
+        position: relative;
+        left: 1910px;
+        bottom: 650px;
 
-        img{
-            position: absolute; 
+
+        img{    
             width: 448px;
             height: 136px;
             left: calc(50% - 448px/2);
             top: 0px;
             object-fit: cover;
         }
-
+        
         .content-card{
+            width: 70%;
+            height: 50%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            height: 100%;
-            width: 100%;
-            color: #FFFFFF;
-            padding: 50px 64px;
+            justify-content: space-around;
             font-family: 'Roboto', sans-serif;
-            background: $basic-200;
+            
 
                 h5{
                     font-weight: bold;
                     font-size: 12px;
                     line-height: 14px;
                     text-transform: uppercase;
-                    margin-top: 7rem;
                     color: $primary-500;
                 }
         
                 p{
-                    width: 90%;
+                    
                     font-size: 18px;
                     line-height: 21px;
                     font-weight: 400;
-                    color: $basic-500;
         
                 }
         
-                button{
+                .link{
 
-                    margin-top: 1rem;
                     font-weight: bold;
                     font-size: 16px;
                     line-height: 19px;
@@ -282,62 +260,57 @@
 
                 }
         }
-                
     }
+                
     .card-insights-lg5{
+
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-    
-        position: relative;
         width: 448px;
-        height: 360px;
-        left: 614px;
-        bottom: 1330px;
+        height: 339px;
+        background: $basic-200;
+        position: relative;
+        left:1410px; 
+        bottom: 1290px;
+    
 
-        img{
-            position: absolute; 
+
+        img{    
             width: 448px;
             height: 136px;
             left: calc(50% - 448px/2);
             top: 0px;
             object-fit: cover;
         }
-
+        
         .content-card{
+            width: 70%;
+            height: 50%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            height: 100%;
-            width: 100%;
-            color: #FFFFFF;
-            padding: 50px 64px;
+            justify-content: space-around;
             font-family: 'Roboto', sans-serif;
-            background: $basic-200;
+            
 
                 h5{
                     font-weight: bold;
                     font-size: 12px;
                     line-height: 14px;
                     text-transform: uppercase;
-                    margin-top: 7rem;
                     color: $primary-500;
                 }
         
                 p{
-        
+                    
                     font-size: 18px;
                     line-height: 21px;
                     font-weight: 400;
-                    color: $basic-500;
         
                 }
         
-                button{
+                .link{
 
-                    margin-top: 1rem;
                     font-weight: bold;
                     font-size: 16px;
                     line-height: 19px;
@@ -349,60 +322,56 @@
 
                 }
         }
-        
     }
     .card-insights-lg6{
 
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-    
-        position: relative;
         width: 448px;
-        height: 360px;
-        left: 142px;
-        bottom: 1620px;
-        color: #FFFFFF;
+        height: 339px;
+        background: $basic-200;
+        position: relative;
+        left:910px; 
+        bottom: 1550px;
+    
 
-        img{
-            position: absolute; 
+
+        img{    
             width: 448px;
             height: 136px;
             left: calc(50% - 448px/2);
             top: 0px;
             object-fit: cover;
         }
-
+        
         .content-card{
+            width: 70%;
+            height: 50%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            height: 100%;
-            width: 100%;
-            padding: 50px 64px;
+            justify-content: space-around;
             font-family: 'Roboto', sans-serif;
-            background: $primary-500;
+            
 
                 h5{
                     font-weight: bold;
                     font-size: 12px;
                     line-height: 14px;
                     text-transform: uppercase;
-                    margin-top: 7rem;
+                    color: $primary-500;
                 }
         
                 p{
-                    width: 90%;
+                    
                     font-size: 18px;
                     line-height: 21px;
                     font-weight: 400;
+        
                 }
         
-                button{
+                .link{
 
-                    margin-top: 1rem;
                     font-weight: bold;
                     font-size: 16px;
                     line-height: 19px;
@@ -411,63 +380,66 @@
                     color: $primary-500;
                     background-color: transparent;
                     border: none;
-                    color: #FFFFFF;
 
                 }
         }
     }
-    .navigation-dots{
+
+    .container-dots-btn{
+        width: 100%;
+        height: 170px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        width: 72px;
-        position: relative;
-        left: 684px;
-        bottom: 1150px;
-      
-        .rectangle-47{
-            width: 16px;
-            height: 16px;
+        margin-top: 35rem;
+        .navigation-dots{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 72px;
+         
+        
+            .rectangle-47{
+                width: 16px;
+                height: 16px;
+                background: $primary-500;
+                box-sizing: border-box;
+            }
+
+            .rectangle-46{
+                width: 12px;
+                height: 12px;
+                border: 2px solid #F2A900;
+                box-sizing: border-box;
+            }
+
+            .rectangle-45{
+                width: 12px;
+                height: 12px;
+                border: 2px solid #F2A900;
+                box-sizing: border-box;
+                
+            }   
+        }
+
+        .btn-section02{
+            width: 357px;
+            height: 69px;
             background: $primary-500;
-            box-sizing: border-box;
+            color: white;
+            border: none;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: 0.09em;
+            text-transform: uppercase;
+
         }
-
-        .rectangle-46{
-            width: 12px;
-            height: 12px;
-            border: 2px solid #F2A900;
-            box-sizing: border-box;
-        }
-
-        .rectangle-45{
-            width: 12px;
-            height: 12px;
-            border: 2px solid #F2A900;
-            box-sizing: border-box;
-            
-        }   
-    }
-
-    .btn-section02{
-
-        position: relative;
-        width: 357px;
-        height: 69px;
-        left: 542px;
-        bottom: 1100px;
-        background: $primary-500;
-        color: white;
-        border: none;
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 21px;
-        text-align: center;
-        letter-spacing: 0.09em;
-        text-transform: uppercase;
-
     }
 
 }
