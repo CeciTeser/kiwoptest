@@ -1,0 +1,57 @@
+@import '../../../scss/main.scss';
+
+
+.card-news-lg1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 448px;
+    height: 433px;
+    background-color: $basic-200;
+
+    
+
+    .container-text{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: 'Roboto', sans-serif;
+
+        .date{
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: $basic-500;
+        }
+
+        .text{
+            font-size: 16px;
+            line-height: 24px;
+            color: $basic-500;
+        }
+
+        .link{
+            font-weight:bold;
+            font-size: 16px;
+            line-height: 19px;
+            color: $primary-500; 
+            text-decoration-line: underline;
+            text-transform: uppercase;
+        }
+
+    }
+
+    img{
+        
+        width: 448px;
+        height: 200px;
+        left: calc(50% - 448px/2);
+        top: 0px;
+        object-fit: cover;
+        
+    }
+
+}

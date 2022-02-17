@@ -1,0 +1,87 @@
+@import '../../../scss/main.scss';
+
+.section06{
+ 
+    width: 100%;
+    height: 477px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    padding-bottom: 30px;
+    background-color: $secondary-blue-900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    line-height: 51px;
+    overflow: hidden;
+    position: relative;
+
+    .text-box{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        width: 1000px;
+        position: absolute;
+        
+       
+    
+        h5{
+            color: white;
+            font-size: 40px;
+            line-height: 51px;
+            margin:0px;
+            padding: 0px;
+        }
+
+        p{
+            color: $primary-500;
+            font-size: 40px;
+            line-height: 51px;
+            margin:0px;
+            padding: 0px;
+        
+        }
+
+        button{
+            width: 343px;
+            height: 69px;
+            background: $primary-500;
+            border: none;
+            color: white;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            margin-top: 80px;
+            text-align: center;
+            letter-spacing: 0.09em;
+            text-transform: uppercase;
+        }
+    
+    }
+
+    .rectangle-101  {
+        position: absolute;
+        width: 365.17px;
+        height: 365.17px;
+        left: -250px;
+        top: 330px;
+        border: 16px solid #F2A900;
+        box-sizing: border-box;
+    }
+
+    .rectangle-66 {
+        position: absolute;
+        width: 365.17px;
+        height: 365.17px;
+        left: 2150px;
+        bottom: 350px;
+        border: 16px solid #F2A900;
+        box-sizing: border-box;
+    }
+
+   
+}

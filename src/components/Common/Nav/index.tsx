@@ -1,6 +1,6 @@
 import { FC } from "react"
-import { Languaje } from "../../LanguajeDropDown";
-import { Search } from "../../Search ";
+import { Languaje } from "../../Parts/LanguajeDropDown";
+import { Search } from "../../Parts/Search ";
 import chevron  from '../../../assets/img/chevron-down.png'
 
 

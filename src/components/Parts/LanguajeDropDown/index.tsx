@@ -1,6 +1,6 @@
 import { FC } from "react"
 
-import chevron  from '../../assets/img/chevron-down.png'
+import chevron  from '../../../assets/img/chevron-down.png'
 
 
 import './styles.scss';

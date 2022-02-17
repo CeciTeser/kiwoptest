@@ -1,6 +1,6 @@
 import { FC } from "react"
 
-import loupe  from '../../assets/img/loupe.png'
+import loupe  from '../../../assets/img/loupe.png'
 
 
 import './styles.scss';
