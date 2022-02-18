@@ -8,9 +8,8 @@
     align-items: center;
     width: 448px;
     height: 433px;
-    background-color: $basic-200;
-
-    
+    margin: 0px 10px 0px 10px;
+  
 
     .container-text{
         height: 50%;
@@ -24,13 +23,13 @@
             font-size: 12px;
             line-height: 14px;
             text-transform: uppercase;
-            color: $basic-500;
+           
         }
 
         .text{
             font-size: 16px;
             line-height: 24px;
-            color: $basic-500;
+           
         }
 
         .link{

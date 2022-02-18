@@ -1,6 +1,6 @@
 import { FC } from "react"
 
-import section05  from '../../../assets/img/section05.jpeg'
+import section05  from '../../../assets/img/img-sect5.jpeg'
 import { CardNews } from "../../Parts/CardNews";
 import { Link } from 'react-router-dom'
 
@@ -28,6 +28,8 @@ const Section05: FC = () => {
                         img={section05}
                         text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
                         link= {'https://www.youtube.com/'}
+                        backgroundColor={'#F7F6F6'}
+                        color={'#707372'}
                     /> 
 
                     <CardNews 
@@ -35,6 +37,8 @@ const Section05: FC = () => {
                         img={section05}
                         text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
                         link= {'https://www.youtube.com/'}
+                        backgroundColor= {'#F7F6F6'}
+                        color={'#707372'}
                     /> 
 
                     <CardNews
@@ -42,6 +46,8 @@ const Section05: FC = () => {
                         img={section05}
                         text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
                         link= {'https://www.youtube.com/'}
+                        backgroundColor={'#01426A'}
+                        color={'#FFFFFF'}
                     /> 
 
                 </div>
