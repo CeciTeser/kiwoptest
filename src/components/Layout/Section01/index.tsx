@@ -1,6 +1,6 @@
 import { FC } from "react"
 
-import seats  from '../../../assets/img/seats.jpeg'
+import seats  from '../../../assets/img/img-sect1.jpeg'
 
 
 import './styles.scss';

@@ -1,11 +1,209 @@
 @import '../../../scss/main.scss';
 
 .section04{
- 
-    width: 90rem;
+
+    width: 100%;
     height: 837px;
-    margin-top: 10rem;
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 3rem;
+    
+    .container-sect04{
+
+        width: 80%;
+        height: 100%;
+        
+    
+        .section04-title{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            font-family: 'Roboto', sans-serif;
+            margin: 15px 0px 45px 0px;
+    
+                h5{
+                    color: $secondary-blue-900;
+                    font-size: 40px;
+                    line-height: 51px;
+                    margin: 0px;
+                }
+    
+                .link-all-art{
+                    padding: 15px 50px 0px 0px;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: $primary-500;
+                    text-decoration-line: underline;
+                    text-transform: uppercase;
+                }
+    
+        }
+        
+        .container-box12{
+            width: 72rem;
+            display: flex;
+            flex-direction: row;
+
+            .box-insight01{
+                width: 28rem;
+                height: 22rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-right:1rem ;
+                background-color: $basic-200;
+    
+                .content-insight01{
+                    width: 70%;
+                    height: 90%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    font-family: 'Roboto', sans-serif;
+                   
+                }
+                h5{
+                    font-size: 12px;
+                    color: $primary-500;
+                }
+                h2{
+                    font-size: 24px;
+                    color: $basic-700;
+                }
+    
+                p{
+                    font-size: 16px;
+                    color: $basic-500;
+                }
+    
+                .link{
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: $primary-500;
+                }
+            }
+    
+            .box-insight02{
+                width: 43rem;
+                height: 23rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(1, 66, 106, .5);
+               
+                .img-back{
+                    background-image: linear-gradient( rgba(1, 66, 106, 0.9) 100%, rgba(1, 66, 106, 0.5)100%),url("../../../assets/img/img2-sect4.jpg") ;
+                    width: 100%;
+                    height: 100%;
+                    background-size: 100%;
+                }
+            
+    
+                .content-insight02{
+
+                    width: 70%;
+                    height: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    margin-left: 4rem;
+                    font-family: 'Roboto', sans-serif;
+                    color: #FFF1D1;
+    
+                    h5{
+                        font-size: 12px;
+                       
+                    }
+                    h2{
+                        font-size: 24px;
+                        
+                    }
+        
+                    p{
+                        font-size: 16px;
+                       
+                    }
+        
+                    .link{
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: #FFF1D1;
+                    }
+                }
+            } 
+        
+        }
+
+        .container-box3{
+
+            width: 72rem;
+            height: 20rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            position: relative;
+            margin-top: 2rem;
+           
+
+            img{
+                position: absolute;
+                width: 18rem;
+                height: 13rem;
+                right: 0;
+               
+            }
+
+            .box-insight03{
+                width: 65rem;
+                height: 20rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                margin-top: 2rem;
+                background-color: $basic-200;
+
+                .content-insight03{
+                    width: 70%;
+                    height: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    margin-left: 4rem;
+                    font-family: 'Roboto', sans-serif;
+                    
+                
+
+                    h5{
+                        font-size: 12px;
+                        color:$primary-500;
+                    
+                    }
+                    h2{
+                        color:$basic-700;
+                        
+                    }
+        
+                    p{
+                        font-size: 16px;
+                        color: $basic-500;
+                    
+                    }
+        
+                    .link{
+                        font-size: 16px;
+                        font-weight: bold;
+                        margin-top: 2rem;
+                        color:$primary-500;
+                    }
+                }
+            }
+        }
+    }
 
    
 }
