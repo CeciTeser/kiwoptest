@@ -43,44 +43,93 @@
        flex-direction: row;
        justify-content: space-between;
        align-items: center;
-       width: 80%;
-       height: 40%;
-      
+       width: 70%;
+       height: 50%;
+    
+        .box-valor12{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin:0px;
+            padding: 0px;
 
-       .valor{
-           display: flex;
-           flex-direction: column;
-           align-items: flex-start;
-           width: 100%;
-           height: 80%;
-           padding: 0px 40px;
-     
-       
-
-           h5{
-            font-family: 'Roboto', sans-serif;
-            color: $primary-500;
-            font-weight: bold;
-            font-size: 18px;
-            line-height: 21px;
-           }
-
-           p{
+            .valor{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 60%;
+                height: 80%;
+                padding: 0px 30px;
             
-            font-size: 16px;
-            line-height: 24px;
-            font-weight: 400;
-            color: $basic-500;
-            
-            
-           }
 
-           .icon{
-               width: 42px;
-               height: 51px;
-               color: $primary-500;
-           }
-       }
+                h5{
+                    font-family: 'Roboto', sans-serif;
+                    color: $primary-500;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+
+                p{
+                    
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-weight: 400;
+                    color: $basic-500;
+                    
+                    
+                }
+
+                .icon{
+                    width: 42px;
+                    height: 51px;
+                    color: $primary-500;
+                }
+            }
+        }
+        
+        .box-valor34{
+            display: flex;
+            flex-direction: row;
+            margin:0px;
+            padding: 0px;
+           
+
+            .valor{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 60%;
+                height: 80%;
+                padding: 0px 30px;
+            
+
+                h5{
+                    font-family: 'Roboto', sans-serif;
+                    color: $primary-500;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+
+                p{
+                    
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-weight: 400;
+                    color: $basic-500;
+                    
+                    
+                }
+
+                .icon{
+                    width: 42px;
+                    height: 51px;
+                    color: $primary-500;
+                }
+            }
+        }
    }
 
    button{
@@ -100,4 +149,133 @@
        text-transform: uppercase;
    }
 
+}
+
+@media (max-width: 375px) {
+
+    .section03{
+
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background: $basic-200;
+        margin-top: 10rem;
+        
+    
+        h4{
+            font-size: 28px;
+            line-height: 36px;
+        }
+    
+        .text-section03{
+            width: 90%;
+            height: 72px;
+            font-size: 14px;
+            line-height: 18px;
+       }
+    
+       .box-valores{
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+           align-items: flex-start;
+           width: 20rem;
+           height: 100%;
+           
+           .box-valor12{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin:0px;
+                padding: 0px;
+
+                .valor{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    width: 10rem;
+                    height: 100%;
+                    padding: 0px 10px;
+                    margin-top: 2rem;
+                    
+
+                    h5{
+                        font-size: 18px;
+                        line-height: 21px;
+                        margin:10px 0px 0px 0px;
+                    }
+            
+                    p{
+                        
+                        font-size: 14px;
+                        line-height: 16px;
+                        margin: 20px 0px 20px 0px;
+                        
+                    }
+            
+                    .icon{
+                        width: 42px;
+                        height: 51px;
+                        
+                    }
+                }
+            }
+            .box-valor34{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin:0px;
+                padding: 0px;
+
+                .valor{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    width: 10rem;
+                    height: 100%;
+                    padding: 0px 10px;
+                    margin-top: 2rem;
+                    
+
+                    h5{
+                        font-size: 18px;
+                        line-height: 21px;
+                        margin:10px 0px 0px 0px;
+                    }
+            
+                    p{
+                        
+                        font-size: 14px;
+                        line-height: 16px;
+                        margin: 20px 0px 20px 0px;
+                        
+                    }
+            
+                    .icon{
+                        width: 42px;
+                        height: 51px;
+                        
+                    }
+                }
+            }
+        }
+
+       button{
+        width: 193px;
+        height: 49px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 1rem;
+       }
+    
+    }
+  
 }

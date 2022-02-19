@@ -82,6 +82,49 @@
         border: 16px solid #F2A900;
         box-sizing: border-box;
     }
+}
 
-   
+@media (max-width: 375px){
+
+    .section06{
+
+        height: 390px;
+    
+        .text-box{
+
+            width: 90%;
+            margin-top: 1rem;
+            text-align: center;
+        
+            h5{
+                font-size: 28px;
+                line-height: 36px;
+            }
+    
+            p{
+                font-size: 28px;
+                line-height: 36px;
+            }
+    
+            button{
+                width: 253px;
+                height: 49px;
+                font-size: 14px;
+                line-height: 17px;
+                margin-top: 2rem;
+            }
+        
+        }
+    
+        .rectangle-101  {
+            left: -270px;
+            top: 330px;
+        }
+    
+        .rectangle-66 {
+            right: -270px;
+            bottom: 330px;
+        }
+    }
+
 }

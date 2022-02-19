@@ -1,6 +1,11 @@
 import { FC } from "react"
+
 import { Languaje } from "../../Parts/LanguajeDropDown";
 import { Search } from "../../Parts/Search ";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 import chevron  from '../../../assets/img/chevron-down.png'
 
 
@@ -55,7 +60,9 @@ const Nav: FC = () => {
                 </div>
 
             </div>
-
+            <div className="icon-container">
+                <FontAwesomeIcon  className='icon' icon={faBars} />
+            </div>
         </nav>
       
     )

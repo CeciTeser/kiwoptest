@@ -17,7 +17,7 @@ const Dashboard:FC =()=>{
 
                 <Section01/>
 
-                <p className='description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, deserunt et praesentium ratione aperiam sapiente laudantium, a ad totam amet, culpa commodi odio ut voluptatem? In veritatis repellat quas eum.</p>
+                <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis ullamcorper leo, vel suscipit magna. Aliquam in dui id quam congue iaculis. Donec rutrum hendrerit arcu vel elementum.</p>
                 
                 <Section02/>
                 

@@ -9,8 +9,10 @@ const Section01: FC = () => {
 
     return (
         
-        <section className="section01">   
+        <section className="section01">  
+       
             <img src={seats} alt="seats" />
+            
             <div className="box-destacado">
 
                 <div className="timer">

@@ -7,6 +7,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
+    .icon-container{
+       display: none;
+    }
+ 
     
     
     .nav{
@@ -51,6 +56,29 @@
             justify-content: space-between;
             color: $basic-500;
             font-family: 'Roboto', sans-serif;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .nav-container{
+        display: flex;
+        justify-content: center;
+    
+        .nav{
+        display: none;
+        }
+
+        .icon-container{
+            width: 90%;
+            display: flex;
+            justify-content: flex-end;
+
+            .icon{
+                width: 1.5rem;
+                height: 2.5rem;
+                color:  #C4C4C4;
+            }
         }
     }
 }

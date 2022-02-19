@@ -3,7 +3,7 @@ import { FC } from "react"
 import { Link } from 'react-router-dom'
 
 import worker  from '../../../assets/img/img-sect4.jpg'
-import building  from '../../../assets/img/img2-sect4.jpg'
+
 
 
 
