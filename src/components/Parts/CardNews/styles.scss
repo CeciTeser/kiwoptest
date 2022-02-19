@@ -54,3 +54,34 @@
     }
 
 }
+
+@media (max-width: 375px){
+    
+    .card-news-lg1{
+
+        width: 230px;
+        height: 361px;
+        margin: 0px 2px 0px 10px;
+        
+    
+        .container-text{
+            width: 80%;
+            height: 45%;
+            
+
+    
+            .text{
+                font-size: 14px;
+                line-height: 16px;
+            }
+        }
+    
+        img{
+            
+            width: 230px;
+            height: 170px;
+            
+        }
+    
+    }
+}

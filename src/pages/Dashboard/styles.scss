@@ -1,15 +1,13 @@
 @import '../../scss/main.scss';
 
 .dashboard{
-    
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 1rem 0rem 0rem 0rem;
-    height: 100%;
 
-    
     .description{
         width: 920px;
         height: 93px;
@@ -21,5 +19,19 @@
         font-family: 'Barlow', sans-serif;
     
     }
-    
+
+}
+
+@media (max-width: 375px){
+
+    .dashboard{
+
+        .description{
+            width: 85%;
+            height: 100px;
+            margin-top: 0rem;
+            font-size: 20px;
+        
+        }
+    }
 }

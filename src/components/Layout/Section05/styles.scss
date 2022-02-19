@@ -71,5 +71,58 @@
             }
         }
     }
+}
+
+@media (max-width: 375px){
+
+    .section05{
+ 
+        width: 100%;
+        width: 90%;
+        padding: 70px 0px 0px 0px;
+
+    
+        .container-sect05{
+    
+            width: 100%;
+            height: 100%;
+        
+        
+            .section05-news{
+                width: 100%;
+                height: 15%;
+                flex-direction: column;
+                margin-bottom: 1rem;
+               
+    
+                h5{
+                    font-size: 28px;
+                    line-height: 36px;
+                    margin: 0px;
+                }
+    
+                .link-all-news{
+                    padding: 0px;
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+    
+            }
+    
+            .timer{
+    
+                .timer-01{
+
+                    height: 4px;
+
+                }
+                .timer-02{
+
+                    height: 4px;
+
+                }
+            }
+        }
+    }
 
 }
