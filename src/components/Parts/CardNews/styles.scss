@@ -9,6 +9,7 @@
     width: 448px;
     height: 433px;
     margin: 0px 10px 0px 10px;
+ 
   
 
     .container-text{
@@ -47,10 +48,7 @@
         
         width: 448px;
         height: 200px;
-        left: calc(50% - 448px/2);
-        top: 0px;
         object-fit: cover;
-        
     }
 
 }

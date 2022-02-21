@@ -6,7 +6,6 @@ import { Search } from "../../Parts/Search ";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
-import chevron  from '../../../assets/img/chevron-down.png'
 
 
 import './styles.scss';
@@ -29,14 +28,34 @@ const Nav: FC = () => {
                     </li>
 
                     <li >
-
-                        Industrias <img src={chevron} alt="chevron-down" />
-        
+                        <select name="" id="">
+                            <option value="Industrias" selected>Industrias</option>
+                            <option value="Aeronautica">Aeronáutica</option>
+                            <option value="Espacio">Espacio</option>
+                            <option value="Automoción">Automoción</option>
+                            <option value="Ferroviario">Ferroviario</option>
+                            <option value="Naval">Naval</option>
+                            <option value="Defensa">Defensa</option>
+                            <option value="OilGas">Oil & Gas</option>
+                            <option value="Energía">Energía</option>
+                            <option value="AEC">AEC</option>
+                            
+                        </select>
                     </li>
                     
                     <li>
-
-                        Servicios <img src={chevron} alt="chevron-down" />
+                        <select name="" id="">
+                            <option value="Servicios" selected>Servicios</option>
+                            <option value="Consulting">Consulting</option>
+                            <option value="Engineering">Engineering</option>
+                            <option value="Innovación">Innovación</option>
+                            <option value="DigitalTransformation">Digital Transformation</option>
+                            <option value="Softwaredevelopment">Software development</option>
+                            <option value="Training">Training</option>
+                            <option value="Prototyping">Prototyping</option>
+                            <option value="Innovación">Innovación</option>
+                            
+                        </select>
                     </li>
 
                     <li >
