@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/kiwoptest/static/css/main.3308f8e4.css",
+    "main.js": "/kiwoptest/static/js/main.e79de0f8.js",
+    "static/media/img-sect5.jpeg": "/kiwoptest/static/media/img-sect5.dfa0f2f3e05081108181.jpeg",
+    "static/media/img4-sect2.jpeg": "/kiwoptest/static/media/img4-sect2.99637a05dc966ff59e74.jpeg",
+    "static/media/img-sect4.jpg": "/kiwoptest/static/media/img-sect4.8a9efb2482d2452feb62.jpg",
+    "static/media/img2-sect4.jpg": "/kiwoptest/static/media/img2-sect4.abe5c94681c2bf1e1100.jpg",
+    "static/media/img-sect1.jpeg": "/kiwoptest/static/media/img-sect1.915b42505687355377b3.jpeg",
+    "static/media/img5-sect2.jpeg": "/kiwoptest/static/media/img5-sect2.4f72771a559e07cc07fe.jpeg",
+    "static/media/img3-sect2.jpeg": "/kiwoptest/static/media/img3-sect2.0a4e28a9bf6203c52009.jpeg",
+    "static/media/img6-sect2.jpeg": "/kiwoptest/static/media/img6-sect2.ac949b7d5b0ec45ad858.jpeg",
+    "static/media/img1-sect2.png": "/kiwoptest/static/media/img1-sect2.39e79ec767d9fc40b1a3.png",
+    "static/media/img2-sect2.jpeg": "/kiwoptest/static/media/img2-sect2.09c9e5c0c58954ea5c5d.jpeg",
+    "static/media/loupe.png": "/kiwoptest/static/media/loupe.1d92f967297920015306.png",
+    "index.html": "/kiwoptest/index.html",
+    "main.3308f8e4.css.map": "/kiwoptest/static/css/main.3308f8e4.css.map",
+    "main.e79de0f8.js.map": "/kiwoptest/static/js/main.e79de0f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3308f8e4.css",
+    "static/js/main.e79de0f8.js"
+  ]
+}
