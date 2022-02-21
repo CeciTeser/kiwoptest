@@ -15,9 +15,9 @@ También he agregado un dropdown en el menú de navegación de la página para q
 # Deployado [aquí](https://ceciteser.github.io/kiwoptest/).
 
 # Tecnologías utilizadas:
-
-•	React Js
-•	Sass
-•	Typescript
+•
+ oReact Js
+ oSass
+ oTypescript
 
 
