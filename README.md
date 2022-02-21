@@ -16,8 +16,8 @@ También he agregado un dropdown en el menú de navegación de la página para q
 
 # Tecnologías utilizadas:
 
-React Js
-Sass
-Typescript
+•	React Js
+•	Sass
+•	Typescript
 
 
