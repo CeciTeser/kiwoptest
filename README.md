@@ -12,12 +12,14 @@ También he agregado un dropdown en el menú de navegación de la página para q
  
   La aplicación se visualiza tanto en su versión desktop (1440px) como mobile (responsive - 375px), tal como muestra en Figma. 
   
-# Deployado [aquí](https://ceciteser.github.io/kiwoptest/).
+## Deployado [aquí](https://ceciteser.github.io/kiwoptest/).
 
-# Tecnologías utilizadas:
-•
- oReact Js
- oSass
- oTypescript
+## Tecnologías utilizadas:
+
+• React Js
+
+• Sass
+
+• Typescript
 
 
