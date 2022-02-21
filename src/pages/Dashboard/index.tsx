@@ -27,6 +27,8 @@ const Dashboard:FC =()=>{
 
                 <Section05/>
 
+                <div className='square'></div>
+
                 <Section06/>
 
                 <Footer/>

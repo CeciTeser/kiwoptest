@@ -27,7 +27,7 @@ const Section05: FC = () => {
                         date={'12 nov 2020'}
                         img={section05}
                         text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
-                        link= {'https://www.youtube.com/'}
+                        link= {''}
                         backgroundColor={'#F7F6F6'}
                         color={'#707372'}
                     /> 
@@ -36,7 +36,7 @@ const Section05: FC = () => {
                         date={'12 nov 2020'}
                         img={section05}
                         text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
-                        link= {'https://www.youtube.com/'}
+                        link= {''}
                         backgroundColor= {'#F7F6F6'}
                         color={'#707372'}
                     /> 
@@ -45,7 +45,7 @@ const Section05: FC = () => {
                         date={'12 nov 2020'}
                         img={section05}
                         text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
-                        link= {'https://www.youtube.com/'}
+                        link= {''}
                         backgroundColor={'#01426A'}
                         color={'#FFFFFF'}
                     /> 
@@ -60,7 +60,7 @@ const Section05: FC = () => {
 
             </div>
 
-    
+        
         </section>
     
       
